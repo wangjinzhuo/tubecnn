@@ -1,0 +1,1 @@
+./build/tools/caffe train -solver models/action_recognition/vgg_16_flow_solver.prototxt -weights models/action_recognition/vgg_16_action_flow_pretrain.caffemodel -gpu 0

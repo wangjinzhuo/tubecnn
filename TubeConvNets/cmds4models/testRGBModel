@@ -1,0 +1,1 @@
+./build/tools/caffe test -model models/action_recognition/vgg_16_rgb_train_val_fast.prototxt -weights spatialModels/randomFrames/cuhk_action_recognition_vgg_16_split1_rgb_iter_10000.caffemodel -gpu 0 -iterations 755

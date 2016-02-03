@@ -1,0 +1,1 @@
+mpirun -np 2 ./build/tools/caffe train -solver models/action_recognition/vgg_16_flow_solver_tube.prototxt -weights models/action_recognition/vgg_16_action_flow_pretrain.caffemodel
